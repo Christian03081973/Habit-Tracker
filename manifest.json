@@ -2,23 +2,24 @@
   "name": "Mein Gewohnheitstracker",
   "short_name": "Habits",
   "description": "Gewohnheitstracker für Schichtarbeit und Training",
-  "start_url": "/habit-tracker/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#6366f1",
   "orientation": "portrait",
   "icons": [
-  {
-      "src": "https://christian03081973.grithub.io/Habit-Tracker/android/android-launchericon-192-192.png",
+    {
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
-  },
-  {
-      "src": "https://christian03081973.grithub.io/Habit-Tracker/android/android-launchericon-512-512.png",
+    },
+    {
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "maskable"
-  }
-]
+      "purpose": "any maskable"
+    }
+  ]
 }
